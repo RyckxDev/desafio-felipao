@@ -5,10 +5,14 @@
 - Estruturas de decisões ☑
 */
 
-let nomeDoBoneco = "Felipao"
-let xpDoBoneco = 11.000 //o xp tem q ter "." 
+let nomeDoBoneco = "Ryan"
 let rankingDoBoneco = ""
-let dado = 0;
+let xpDoBoneco = 0 //necessario o 0, fazer o while definir o xp automaticamente de forma aleatoria e consequentemente o ranking
+let dado = 0 // necessario o 0, fazer o while definir o numero de poções aleatoriamente
+
+while (xpDoBoneco <= 1) {
+    xpDoBoneco = Math.floor(Math.random() * 11000);
+}
 
 if(xpDoBoneco <= 1.000){
     rankingDoBoneco = "Ferro"
@@ -32,4 +36,4 @@ while (dado <= 1) {
     dado = Math.floor(Math.random() * 10);
 }
      
-console.log("O Herói de nome " + nomeDoBoneco + " está no nível " + rankingDoBoneco + " e ganhou um total de", dado, "poçoes de vida!")
+console.log("O Herói de nome " + nomeDoBoneco + " está no nível " + rankingDoBoneco + " e ganhou um total de", dado, "poções de vida no baú misterioso")
