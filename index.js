@@ -1,1 +1,1 @@
-assados
+console.log("Olá a todos =D")
