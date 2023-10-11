@@ -11,7 +11,7 @@ let xpDoBoneco = 0 //necessario o 0, fazer o while definir o xp automaticamente 
 let dado = 0 // necessario o 0, fazer o while definir o numero de poções aleatoriamente
 
 while (xpDoBoneco <= 1) {
-    xpDoBoneco = Math.floor(Math.random() * 11000);
+    xpDoBoneco = Math.floor(Math.random() * 11.000);
 }
 
 if(xpDoBoneco <= 1.000){
