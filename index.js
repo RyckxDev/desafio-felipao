@@ -6,7 +6,7 @@
 */
 
 let nomeDoBoneco = "Felipao"
-let xpDoBoneco = 11.000
+let xpDoBoneco = 11.000 //o xp tem q ter "." 
 let rankingDoBoneco = ""
 let dado = 0;
 
